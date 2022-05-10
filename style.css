@@ -134,7 +134,8 @@ h3 {
 
 .discount {
     text-align: center;
-    background-color: #fd8300;
+    background-image: url(img/bg.png);
+    background-repeat: repeat;
 }
 
 .discount p {
