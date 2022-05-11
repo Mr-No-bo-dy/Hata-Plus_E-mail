@@ -8,7 +8,8 @@ table {
 
 h1,
 h2,
-h3 {
+h3,
+p {
     margin: 0;
 }
 
@@ -51,6 +52,19 @@ h3 {
     padding-right: 30px;
 }
 
+.desription>tbody>tr>td.description-top {
+    padding-bottom: 0;
+}
+
+.desription>tbody>tr>td.description-low {
+    padding-top: 0;
+}
+
+.desription>tbody>tr>td.description-middle {
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+
 h1 {
     font-size: 24px;
     line-height: 24px;
@@ -84,6 +98,7 @@ h3 {
 }
 
 .td-cta {
+    padding-top: 20px;
     text-align: center;
 }
 
@@ -147,7 +162,6 @@ h3 {
 }
 
 .advantages p {
-    margin: 0;
     font-size: 13px;
     line-height: 18px;
     color: #666666;
@@ -211,12 +225,22 @@ hr {
     background-color: #1f1f56;
 }
 
-.footer-up {
+.footer-up,
+.footer-middle {
     text-align: center;
     background-color: #08081a;
 }
 
-.footer-up p {
+.socials td {
+    padding-top: 25px;
+}
+
+.footer-middle td {
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.footer-middle p {
     font-size: 13px;
     line-height: 18px;
     color: #9999a6;
@@ -224,13 +248,18 @@ hr {
     text-align: center;
 }
 
-.socials td {
-    padding-top: 25px;
-}
-
 .footer-low {
     text-align: center;
     background-color: #000014;
+}
+
+.footer-low td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.footer-low p {
+    color: #fd8300;
 }
 
 .footer-low a {
