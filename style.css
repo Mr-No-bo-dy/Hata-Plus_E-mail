@@ -6,8 +6,17 @@ table {
     border-collapse: collapse;
 }
 
-p {
+h1,
+h2,
+h3 {
     margin: 0;
+}
+
+.header td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .phone {
@@ -33,6 +42,13 @@ p {
 
 .desription {
     max-width: 600px;
+}
+
+.desription>tbody>tr>td {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 h1 {
@@ -68,20 +84,22 @@ h3 {
 }
 
 .td-cta {
-    width: 180px;
-    height: 40px;
-    border-radius: 20px;
-    background-color: #fd8300;
+    text-align: center;
 }
 
-.cta {
+.td-cta a {
+    display: block;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 180px;
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
     font-weight: bold;
     font-family: "Arial";
-    text-align: center;
     text-decoration: none;
+    border-radius: 20px;
+    background-color: #fd8300;
 }
 
 .pic {
@@ -102,6 +120,23 @@ h3 {
     background-color: #ededf5;
 }
 
+.advantages-top {
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+.advantages td {
+    padding-left: 32px;
+}
+
+.advantages-bottom {
+    padding-bottom: 25px;
+}
+
+.advantages-right {
+    padding-right: 32px;
+}
+
 .advantages b {
     font-size: 14px;
     line-height: 18px;
@@ -112,8 +147,7 @@ h3 {
 }
 
 .advantages p {
-    width: 166px;
-    height: 58px;
+    margin: 0;
     font-size: 13px;
     line-height: 18px;
     color: #666666;
@@ -121,21 +155,43 @@ h3 {
     text-align: center;
 }
 
-.cottages p {
+.cottage td {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 30px;
+}
+
+.cottage-left {
+    padding-left: 30px;
+}
+
+.cottage p,
+.cottage div {
     font-size: 13px;
     line-height: 19px;
     color: #9999a6;
     font-family: "Arial";
 }
 
-.cottages sup {
+.cottage sup {
     font-size: 0.6em;
+}
+
+hr {
+    border-color: #ffffff;
 }
 
 .discount {
     text-align: center;
     background-image: url(img/bg.png);
     background-repeat: repeat;
+}
+
+.discount>tbody>tr>td {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .discount p {
@@ -146,9 +202,11 @@ h3 {
     text-align: center;
 }
 
-.discount .td-cta {
+.discount .td-cta a {
+    display: block;
+    padding-top: 9px;
+    padding-bottom: 9px;
     width: 170px;
-    height: 40px;
     border-radius: 20px;
     background-color: #1f1f56;
 }
@@ -166,6 +224,10 @@ h3 {
     text-align: center;
 }
 
+.socials td {
+    padding-top: 25px;
+}
+
 .footer-low {
     text-align: center;
     background-color: #000014;
@@ -176,6 +238,7 @@ h3 {
     line-height: 18px;
     color: #fd8300;
     font-family: "Arial";
+    text-decoration: none;
 }
 
 .footer-low .tar {
