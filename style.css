@@ -20,16 +20,21 @@ p {
     padding-right: 30px;
 }
 
+.logo-pic {
+    width: 40%;
+}
+
 .phone {
     text-align: right;
 }
 
-.phone b {
+.phone a {
     font-family: "Arial";
     font-weight: bold;
     font-size: 16px;
     line-height: 24px;
     color: #25252c;
+    text-decoration: none;
 }
 
 .phone i {
@@ -107,10 +112,12 @@ h3 {
     background-color: #fd8300;
 }
 
-.td-cta a {
-    display: block;
+.cta {
+    display: inline-block;
     padding-top: 9px;
     padding-bottom: 9px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 14px;
     line-height: 24px;
     color: #ffffff;
@@ -150,6 +157,7 @@ h3 {
 .advantages-bottom {
     padding-top: 5px;
     padding-bottom: 30px;
+    vertical-align: top;
 }
 
 .advantages-right {
@@ -177,6 +185,10 @@ h3 {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 30px;
+}
+
+.cottage-pic {
+    width: 40%;
 }
 
 .cottage-left {
@@ -224,6 +236,11 @@ hr {
 .discount .td-cta {
     width: 170px;
     background-color: #1f1f56;
+}
+
+.discount .cta {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .footer-up,
