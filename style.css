@@ -45,22 +45,22 @@ p {
     max-width: 600px;
 }
 
-.desription>tbody>tr>td {
+.desription-td {
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 30px;
     padding-right: 30px;
 }
 
-.desription>tbody>tr>td.description-top {
+.description-top {
     padding-bottom: 0;
 }
 
-.desription>tbody>tr>td.description-low {
+.description-low {
     padding-top: 0;
 }
 
-.desription>tbody>tr>td.description-middle {
+.description-middle {
     padding-top: 15px;
     padding-bottom: 0;
 }
@@ -74,6 +74,7 @@ h1 {
 }
 
 h2 {
+    margin-bottom: 14px;
     font-size: 16px;
     line-height: 24px;
     color: #1f1f56;
@@ -82,6 +83,7 @@ h2 {
 }
 
 h3 {
+    margin-bottom: 10px;
     font-size: 24px;
     line-height: 24px;
     color: #ffffff;
@@ -136,7 +138,7 @@ h3 {
 }
 
 .advantages-top {
-    padding-top: 35px;
+    padding-top: 37px;
     padding-bottom: 15px;
 }
 
@@ -145,7 +147,8 @@ h3 {
 }
 
 .advantages-bottom {
-    padding-bottom: 25px;
+    padding-top: 5px;
+    padding-bottom: 30px;
 }
 
 .advantages-right {
@@ -201,7 +204,7 @@ hr {
     background-repeat: repeat;
 }
 
-.discount>tbody>tr>td {
+.discount-td {
     padding-top: 35px;
     padding-bottom: 35px;
     padding-left: 100px;
