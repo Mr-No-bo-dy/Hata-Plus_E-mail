@@ -21,7 +21,7 @@ p {
 }
 
 .logo-pic {
-    width: 40%;
+    width: 45%;
 }
 
 .phone {
@@ -97,7 +97,7 @@ h3 {
     text-align: center;
 }
 
-.table-desription p {
+.desription-td p {
     font-size: 14px;
     line-height: 24px;
     color: #666666;
@@ -188,7 +188,7 @@ h3 {
 }
 
 .cottage-pic {
-    width: 40%;
+    width: 45%;
 }
 
 .cottage-left {
@@ -208,7 +208,8 @@ h3 {
 }
 
 hr {
-    border-color: #ffffff;
+    border-color: #e3e3eb;
+
 }
 
 .discount {
@@ -224,7 +225,7 @@ hr {
     padding-right: 100px;
 }
 
-.discount p {
+.discount-td p {
     margin-bottom: 16px;
     font-size: 13px;
     line-height: 20px;
