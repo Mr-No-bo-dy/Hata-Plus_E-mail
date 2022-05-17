@@ -13,7 +13,7 @@ p {
     margin: 0;
 }
 
-.header td {
+.header {
     padding-top: 12px;
     padding-bottom: 12px;
     padding-left: 30px;
@@ -209,8 +209,8 @@ h3 {
 }
 
 hr {
+    margin: 0;
     border-color: #e3e3eb;
-
 }
 
 .discount {
