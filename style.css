@@ -182,18 +182,15 @@ h3 {
     text-align: center;
 }
 
-.cottage td {
+.td-cottage {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 30px;
+    padding-left: 30px;
 }
 
 .cottage-pic {
-    width: 45%;
-}
-
-.cottage-left {
-    padding-left: 30px;
+    width: 50%;
 }
 
 .cottage p,
